@@ -67,6 +67,19 @@ For GitHub Pages:
 
 If the project is deployed under a custom domain, update the canonical URL, Open Graph URL, sitemap, and domain configuration together. Do not publish a guessed canonical URL.
 
+## Deploy to Netlify
+
+The repository includes `netlify.toml`; the site needs no build command.
+
+1. Sign in to Netlify.
+2. Choose **Add new site → Import an existing project**.
+3. Connect GitHub and select `md-yasin-code/bangladesh-visits`.
+4. Confirm the publish directory is `.` and leave the build command empty.
+5. Deploy the site. Netlify will generate a `*.netlify.app` subdomain.
+6. In **Site configuration → Build & deploy → Continuous deployment**, confirm the production branch is `main`.
+
+After the first import, future pushes to `main` can deploy automatically. Netlify account authorization and site creation must be completed by the account owner; this repository connection cannot be authorized from GitHub alone.
+
 ## External services
 
 The existing page loads Google Fonts and remote Unsplash images. An internet connection is therefore required for those external resources. The website itself does not currently require a JavaScript build tool or server-side runtime.
