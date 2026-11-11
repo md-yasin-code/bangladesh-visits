@@ -1,0 +1,11 @@
+{
+  "name": "Discover Bangladesh",
+  "short_name": "Discover BD",
+  "description": "Discover destinations, heritage, culture, food and travel essentials in Bangladesh.",
+  "lang": "en",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f4ed",
+  "theme_color": "#14352a"
+}
