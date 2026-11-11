@@ -60,9 +60,10 @@ This is a static website and can be hosted on GitHub Pages or another static hos
 
 For GitHub Pages:
 1. Open **Settings → Pages** in the repository.
-2. Select **Deploy from a branch**.
-3. Select the `main` branch and `/ (root)`.
-4. Save and wait for the deployment to complete.
+2. Under **Build and deployment → Source**, select **GitHub Actions**.
+3. Keep the `.github/workflows/pages.yml` workflow on the `main` branch.
+4. Push or merge a commit to `main`, or run the workflow manually from **Actions**.
+5. Wait for the Pages deployment job to complete and open the published URL shown by GitHub.
 
 If the project is deployed under a custom domain, update the canonical URL, Open Graph URL, sitemap, and domain configuration together. Do not publish a guessed canonical URL.
 
