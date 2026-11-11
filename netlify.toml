@@ -1,0 +1,8 @@
+# Netlify static-site configuration
+# No build step is required; the existing homepage is served as-is.
+
+[build]
+  publish = "."
+
+[build.processing]
+  skip_processing = false
